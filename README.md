@@ -10,6 +10,7 @@ for all of them).
 
 INPUT: filename.
 	python vcf_reader.py example.vcf
+	
 OUTPUT: the number of ploidy (1 for haploidy, 2 for diploidy and so on).
 
 
@@ -19,4 +20,5 @@ neighbouring heterozygotes that have distance between them equal to i.
 
 INPUT: filename, individual name (one of VCF columns).
 	python vcf_reader.py example.vcf NA00001
+	
 OUTPUT: array H - histogram of lengths distribution.
